@@ -35,7 +35,7 @@ public class BaseTest {
   }
   driver.manage().window().maximize();
   driver.manage().deleteAllCookies();
-  driver.get(prop.getProperty("url"));
+  driver.get(prop.getProperty("https://www.priceline.com/"));
  }
 
 }
