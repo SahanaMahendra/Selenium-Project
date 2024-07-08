@@ -29,13 +29,12 @@ public class BaseTest {
  public static void initialization()
  {
   String browserName = prop.getProperty("browser");
-  if(browserName.equals("chrome")){
-   System.setProperty("webdriver.chrome.driver", "/Users/sahanam/Desktop/chromedriver-mac-arm64/chromedriver");
-   driver = new ChromeDriver();
-  }
+   if(browserName.equals("chrome")){
+    System.setProperty("webdriver.chrome.driver", "/Users/sahanam/Desktop/chromedriver-mac-arm64/chromedriver");
+    driver = new ChromeDriver();
+   }
   driver.manage().window().maximize();
   driver.manage().deleteAllCookies();
   driver.get(prop.getProperty("https://www.priceline.com/"));
  }
-
 }
