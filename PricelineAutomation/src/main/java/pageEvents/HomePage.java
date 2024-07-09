@@ -1,6 +1,4 @@
 package pageEvents;
 
-public class HomePage {
-
-  
+public class HomePage {  
 }
