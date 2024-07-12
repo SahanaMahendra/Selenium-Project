@@ -7,7 +7,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-
 public class BaseTest {
  public static WebDriver driver;
  public static Properties prop;
@@ -24,7 +23,6 @@ public class BaseTest {
    e.printStackTrace();
   }
  }
-
 
  public static void initialization()
  {
